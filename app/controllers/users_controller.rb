@@ -10,7 +10,7 @@
    def create
     	@user = User.new(params[:user])
     	if @user.save
-    		flash[:notice] = "You Signed up successfully"
+    		flash[:notice] = "You signed up successfully"
         flash[:color]= "valid"
       else
         flash[:notice] = "Form is invalid"
