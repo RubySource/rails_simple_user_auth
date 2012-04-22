@@ -1,0 +1,91 @@
+body{
+	background-color: #C4C1BD;
+}
+.Sign_Form{
+	text-align: center;
+	margin:auto;
+	margin-top:10px;	
+	width:500px;
+	background-color: rgba(0, 0, 0, .2);
+	padding-bottom:20px;
+	padding-top:2px;
+	border-radius: 18px;
+	box-shadow: 5px 5px 5px #888888;
+
+}
+
+.Signup_Errors{
+	list-style-type: none;
+	text-align:left;
+	margin-left:66px;
+	color:red;
+}
+
+.Main_Header{
+	background-image: url('header_bg.png');
+	height:60px;
+	padding:0 20px;
+	border-radius: 18px;
+	box-shadow: 5px 5px 5px #888888;
+
+}
+
+.Main_Header h1{
+	float:left;
+	margin-top:8px;
+	color:#C4C1BD;
+	background-image: url('ruby-source-logo.png');
+	height:43px;
+	width:215px;
+	text-indent:-9999px;
+}
+
+.nav{
+	list-style-type: none;
+	float: right;
+	color:#C4C1BD;
+
+}
+.nav li{
+	display: inline;
+	margin-right:5px;
+
+}
+.nav_links{
+	color: #C4C1BD;
+	text-decoration: none;
+} 
+
+.notice, .valid_notice, .invalid_notice{
+	height:35px;
+	width: 400px;
+	margin:auto;
+	margin-top:20px;
+}
+.notice, .invalid_notice p, .valid_notice p{
+	text-align:center;
+	margin-top:6px;
+}
+
+.notice{
+	background-color: transparent;
+}
+
+.invalid_notice{
+	background-color: #FFCCCC;
+	border:1px solid red;
+}
+.valid_notice{
+	background-color: #CCFFCC;
+	border:1px solid green;
+}
+
+.User_Header{
+
+	background-color: rgba(0, 0, 0, .2);
+	border-radius: 18px;
+	margin:auto;
+	width:220px;
+	text-align:center;
+}
+
